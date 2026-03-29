@@ -26,8 +26,12 @@ DE-RRD: A Knowledge Distillation Framework for Recommender System
 複数存在するエキスパートは、Gumbel-Softmaxによる連続緩和を用いた選択戦略（Expert selection strategy）によって、関連性の強い情報を集約して蒸留する役割を分担する。これにより、無関係な情報が混ざることを防ぎ、それぞれが特定ユーザー群の知識蒸留に特化する（Figure 3）。
 
 生成変数の数式:
-$$ s^{u}_{m} = \frac{\exp \Bigl(\left(\log \alpha^{u}_m +g_{m} \right) / \tau \Bigr)}{\sum_{i=1}^{M} \exp \Bigl(\bigl(\log \alpha^{u}_i +g_{i}\bigr)/ \tau\Bigr)} $$
-$$ \mathcal{L}_{DE}(u) =\|h_{t}\left(u\right)-\sum_{m=1}^{M} s^{u}_m \cdot E_{m}\bigl(h_{s}\left(u\right)\bigr)\|_{2} $$
+$$
+s^{u}_{m} = \frac{\exp \Bigl(\left(\log \alpha^{u}_m +g_{m} \right) / \tau \Bigr)}{\sum_{i=1}^{M} \exp \Bigl(\bigl(\log \alpha^{u}_i +g_{i}\bigr)/ \tau\Bigr)}
+$$
+$$
+\mathcal{L}_{DE}(u) =\|h_{t}\left(u\right)-\sum_{m=1}^{M} s^{u}_m \cdot E_{m}\bigl(h_{s}\left(u\right)\bigr)\|_{2}
+$$
 
 **数式の詳細な説明**:
 - **$h_{t}(u), h_{s}(u)$**: それぞれ教師モデルと生徒モデルが持つユーザー $u$ の抽出された潜在表現（ベクトル）。
@@ -48,7 +52,9 @@ $$ \mathcal{L}_{DE}(u) =\|h_{t}\left(u\right)-\sum_{m=1}^{M} s^{u}_m \cdot E_{m}
 教師モデルの予測結果から、アイテム間のランキング順序を考慮して知識を蒸留するList-wiseアプローチ。しかし、すべての候補アイテムの順序を厳密に学習するのは非効率であるため、「興味がある少数の上位アイテム」の順位関係と、「興味があるアイテムは、それ以外の無数の興味がないアイテムより上位に来る」という相対的な条件だけを守らせる「Relaxed Ranking（緩和されたランキング）」問題として再定式化している。
 
 数式（Relaxed permutation probability）:
-$$ p\left(\boldsymbol{\pi}^u_{1:K} | \mathbf{r}^u\right)=\prod_{k=1}^{K} \frac{\exp ({r}^u_{\pi_{k}})}{\sum_{i=k}^{K} \exp ({r}^u_{\pi_{i}})+\sum_{j=K}^{K+L} \exp ({r}^u_{\pi_{j}})} $$
+$$
+p\left(\boldsymbol{\pi}^u_{1:K} | \mathbf{r}^u\right)=\prod_{k=1}^{K} \frac{\exp ({r}^u_{\pi_{k}})}{\sum_{i=k}^{K} \exp ({r}^u_{\pi_{i}})+\sum_{j=K}^{K+L} \exp ({r}^u_{\pi_{j}})}
+$$
 
 **数式の詳細な説明**:
 - **$K$**: 教師モデルの推薦リストの上位から重点的にサンプリングされた「興味がある（Interesting）アイテム」の数。
