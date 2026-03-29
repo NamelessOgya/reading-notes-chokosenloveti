@@ -1,0 +1,8 @@
+name: paper_tools
+services:
+  python:
+    build: .
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    command: bash
