@@ -4,7 +4,7 @@
 Bidirectional Knowledge Distillation for Enhancing Sequential Recommendation with Large Language Models
 
 # 調査トピック
-LLMを用いた蒸留技術 
+LLMを用いたレコメンドモデルの蒸留技術  
 
 # 対応事項  
 1. 対象論文のWeb検索を行い **arXiv ID** を特定した上で、汎用ツール `./tools/extract_arxiv.sh <arXiv_ID> "{論文名}"` を実行しなさい。これにより、論文ソースのダウンロード、PDF図版の高品質画像変換、そして参照リスト(`ref_article.md`)とテーブル構造(`tables_source.md`)の抽出までを自動で完了させなさい。
