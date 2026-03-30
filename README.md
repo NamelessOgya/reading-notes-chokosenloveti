@@ -1,6 +1,13 @@
 # reading-notes-chokosenloveti  
 `chokosenloveti`のための論文まとめです。  
-  
+
+## 推奨環境・拡張機能（VSCode等）
+本リポジトリでは、引用関係の歴史的な系譜やネットワーク図などを表現するために **Mermaid.js**（ ````mermaid ```` 記法）を標準採用しています。
+VSCodeをはじめとするローカルエディタのプレビュー画面でこれらのグラフを視覚的にレンダリングするためには、以下の拡張機能が必要です。
+
+- **[Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)**
+  （※ インストールするだけで、標準のMarkdownプレビュータブにグラフがシームレスに描画されます。なお、GitHubのWeb画面上では拡張機能なしで標準サポート・自動描画されます。）
+
 ## ディレクトリ構成ルール
 
 各論文のまとめる際は、以下のように `article_summaries` 以下に論文名のディレクトリを作成し、アセットを管理してください。
@@ -13,7 +20,10 @@
   - `next_to_read.md`: 次に読むべき論文名を列挙するファイル
 
 ## 人間が実行する際の実行方法  
-`prompt_sample.md`相当の内容をcoding-agent(antigravityなど)に与えて実行します。  
+以下のテンプレートファイルの内容を、CopilotやCoding-Agent (antigravityなど) にプロンプトとして与え、自律的なまとめ作業を依頼します。
+
+- **論文単体をまとめる**: `prompt_templete/summary_article.md` を使用
+- **領域（トピック）全体をまとめる**: `prompt_templete/summary_topic.md` を使用
 
 ## 開発環境 (Docker)
 

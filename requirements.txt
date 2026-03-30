@@ -1,3 +1,6 @@
 pandas
 regex
 beautifulsoup4
+networkx
+matplotlib
+scipy

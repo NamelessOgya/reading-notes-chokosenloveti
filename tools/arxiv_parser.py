@@ -43,8 +43,16 @@ def extract_tables(tex_path, out_file):
         print(f"Warning: {tex_path} does not exist.")
         return
     
-    with open(tex_path, 'r', encoding='utf-8') as f:
-        content = f.read()
+    tex_dir = os.path.dirname(tex_path)
+    all_tex_files = [os.path.join(tex_dir, f) for f in os.listdir(tex_dir) if f.endswith('.tex')]
+    
+    content = ""
+    for file in all_tex_files:
+        try:
+            with open(file, 'r', encoding='utf-8', errors='ignore') as f:
+                content += f.read() + "\n"
+        except Exception as e:
+            print(f"Warning: Failed to read {file}: {e}")
         
     tables = re.findall(r'\\begin\{table\*?\}.*?\\end\{table\*?\}', content, flags=re.DOTALL)
     

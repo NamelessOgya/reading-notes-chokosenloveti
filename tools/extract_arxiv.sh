@@ -1,21 +1,22 @@
 #!/bin/bash
 # Description: Download arXiv bundle, extract it, convert PDFs using qlmanage, and run parser in Docker.
-# Usage: ./tools/extract_arxiv.sh <arxiv_id> <task_name>
-# Example: ./tools/extract_arxiv.sh 2502.15685 "Active Large Language Model-based Knowledge Distillation"
+# Usage: ./tools/extract_arxiv.sh <arxiv_id> <task_name> [topic_dir]
+# Example: ./tools/extract_arxiv.sh 2502.15685 "Active Large Language Model-based Knowledge Distillation" "LLMを用いたレコメンドモデルの蒸留技術"
 
 # Stop on first error
 set -e
 
-if [ "$#" -ne 2 ]; then
-    echo "Usage: $0 <arxiv_id> <task_name>"
+if [ "$#" -lt 2 ]; then
+    echo "Usage: $0 <arxiv_id> <task_name> [topic_dir]"
     exit 1
 fi
 
 ARXIV_ID=$1
 TASK_NAME=$2
+TOPIC_DIR="${3:-LLMを用いたレコメンドモデルの蒸留技術}"
 
 ROOT_DIR=$(pwd)
-BASE_DIR="${ROOT_DIR}/LLMを用いた蒸留技術/article_summaries/${TASK_NAME}"
+BASE_DIR="${ROOT_DIR}/${TOPIC_DIR}/article_summaries/${TASK_NAME}"
 SOURCE_DIR="${BASE_DIR}/source"
 IMAGES_DIR="${BASE_DIR}/images"
 
@@ -49,6 +50,14 @@ echo "Copying native images (PNG/JPG)..."
 find "${SOURCE_DIR}" -type f \( -iname "*.png" -o -iname "*.jpg" -o -iname "*.jpeg" \) | while read -r img_path; do
     cp "$img_path" "${IMAGES_DIR}/"
 done
+
+echo "Converting EPS images using Ghostscript via Docker..."
+eps_count=$(find "${SOURCE_DIR}" -type f -iname "*.eps" | wc -l | tr -d ' ')
+if [ "$eps_count" -gt 0 ]; then
+    REL_OUT="${IMAGES_DIR#${ROOT_DIR}/}"
+    REL_SRC="${SOURCE_DIR#${ROOT_DIR}/}"
+    docker compose run --rm python bash -c "apt-get update -qq && apt-get install -y -qq ghostscript && for f in /workspace/${REL_SRC}/*.eps; do gs -dSAFER -dBATCH -dNOPAUSE -dEPSCrop -sDEVICE=png16m -r300 -sOutputFile=/workspace/${REL_OUT}/\$(basename \$f .eps).png \$f; done"
+fi
 
 echo "Running Python parser via Docker..."
 # Identify the main .tex and .bbl files
