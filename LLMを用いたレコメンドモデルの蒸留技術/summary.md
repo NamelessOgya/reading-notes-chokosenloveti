@@ -26,7 +26,7 @@
 ## 引用関係
 （各論文の `ref_article.md` 内での参照関係のネットワーク解析結果）
 
-![引用関係グラフ](./images/citation_graph.png)
+![引用関係グラフ](./graphs/citation_graph.png)
 
 ## 研究の発展  
 
