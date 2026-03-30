@@ -26,7 +26,63 @@
 ## 引用関係
 （各論文の `ref_article.md` 内での参照関係のネットワーク解析結果）
 
-![引用関係グラフ](./graphs/citation_graph.png)
+```mermaid
+graph BT
+    %% Nodes
+    n11["Ranking Distillation<br/>(2018)"]
+    n5["DE-RRD<br/>(2020)"]
+    n7["Collaborative Distillation<br/>(2021)"]
+    n1["Topology Distillation<br/>(2021)"]
+    n8["Unbiased KD<br/>(2023)"]
+    n3["Distillation Matters<br/>(2024)"]
+    n9["Active LLM KD<br/>(2024)"]
+    n4["LLMD4Rec<br/>(2024)"]
+    
+    n2["On-Device LLMs<br/>(2024)"]
+    n6["RDRec<br/>(2024)"]
+    n10["SLMRec<br/>(2024)"]
+
+    %% Styling
+    classDef era1 fill:#FFF9C4,stroke:#333
+    classDef era2 fill:#E8F5E9,stroke:#333
+    classDef era3 fill:#F3E5F5,stroke:#333
+    classDef era4 fill:#E3F2FD,stroke:#333
+
+    class n11 era1
+    class n5,n7,n1 era2
+    class n8 era3
+    class n2,n3,n4,n6,n9,n10 era4
+
+    %% Edges (Older -> Newer)
+    n11 --> n5
+    n11 --> n7
+    n11 --> n1
+    n11 --> n8
+    n11 --> n3
+    n11 --> n9
+    
+    n5 --> n1
+    n5 --> n8
+    n5 --> n3
+    n5 --> n9
+    
+    n7 --> n5
+    n7 --> n1
+    n7 --> n8
+    n7 --> n3
+    n7 --> n9
+    
+    n1 --> n8
+    n1 --> n3
+    n1 --> n9
+    
+    n8 --> n3
+    n8 --> n9
+    
+    n3 --> n9
+    n3 --> n4
+    n9 --> n4
+```
 
 ## 研究の発展  
 
