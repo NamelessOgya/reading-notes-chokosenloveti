@@ -1,0 +1,71 @@
+# 参考文献一覧
+
+※ 本自動抽出は正規表現による簡易版です。一部LaTex特殊文字が残る場合があります。
+
+1. UK~AI~Security~Institute. Inspect {AI:} {Framework} for {Large} {Language} {Model} {Evaluations}, 2024. URL url{https://github.com/UKGovernmentBEIS/inspect_ai}.
+2. Maryam Amirizaniani, Elias Martin, Maryna Sivachenko, Afra Mashhadi, and Chirag Shah. Can llms reason like humans? assessing theory of mind reasoning in llms for open-ended questions. In *Proceedings of the 33rd ACM International Conference on Information and Knowledge Management*, pages 34--44, 2024.
+3. AI~Anthropic. Claude 3.5 sonnet model card addendum. *Claude-3.5 Model Card*, 3:penalty0 6, 2024.
+4. Yuntao Bai, Saurav Kadavath, Sandipan Kundu, Amanda Askell, Jackson Kernion, Andy Jones, Anna Chen, Anna Goldie, Azalia Mirhoseini, Cameron McKinnon, et~al. Constitutional ai: Harmlessness from ai feedback. *arXiv preprint arXiv:2212.08073*, 2022.
+5. Robert~S. Boyer and J.~Strother Moore. A mechanical proof of the turing completeness of pure lisp. Technical Report ADA130625, Texas Univ at Austin Inst for Computing Science and Computer Applications, May 1983. URL url{https://apps.dtic.mil/sti/citations/ADA130625}. Approved for public release.
+6. Collin Burns, Pavel Izmailov, Jan~Hendrik Kirchner, Bowen Baker, Leo Gao, Leopold Aschenbrenner, Yining Chen, Adrien Ecoffet, Manas Joglekar, Jan Leike, et~al. Weak-to-strong generalization: Eliciting strong capabilities with weak supervision. *arXiv preprint arXiv:2312.09390*, 2023.
+7. Hong Cao, Rong Ma, Yanlong Zhai, and Jun Shen. Llm-collab: a framework for enhancing task planning via chain-of-thought and multi-agent collaboration. *Applied Computing and Intelligence*, 4penalty0 (2):penalty0 328--348, 2024.
+8. Chi-Min Chan, Weize Chen, Yusheng Su, Jianxuan Yu, Wei Xue, Shanghang Zhang, Jie Fu, and Zhiyuan Liu. Chateval: Towards better llm-based evaluators through multi-agent debate. *arXiv preprint arXiv:2308.07201*, 2023.
+9. Patrick Chao, Alexander Robey, Edgar Dobriban, Hamed Hassani, George~J Pappas, and Eric Wong. Jailbreaking black box large language models in twenty queries. *arXiv preprint arXiv:2310.08419*, 2023.
+10. Weize Chen, Yusheng Su, Jingwei Zuo, Cheng Yang, Chenfei Yuan, Chen Qian, Chi-Min Chan, Yujia Qin, Yaxi Lu, Ruobing Xie, et~al. Agentverse: Facilitating multi-agent collaboration and exploring emergent behaviors in agents. *arXiv preprint arXiv:2308.10848*, 2penalty0 (4):penalty0 6, 2023.
+11. Fran{c{c}}ois Chollet. On the measure of intelligence. *arXiv preprint arXiv:1911.01547*, 2019.
+12. {Convergence}. Introducing web-world models, December 2024. URL url{https://convergence.ai/training-web-agents-with-web-world-models-dec-2024/}. Accessed: 2025-01-30.
+13. Yilun Du, Shuang Li, Antonio Torralba, Joshua~B Tenenbaum, and Igor Mordatch. Improving factuality and reasoning in language models through multiagent debate. *arXiv preprint arXiv:2305.14325*, 2023.
+14. Dheeru Dua, Yizhong Wang, Pradeep Dasigi, Gabriel Stanovsky, Sameer Singh, and Matt Gardner. Drop: A reading comprehension benchmark requiring discrete reasoning over paragraphs. *arXiv preprint arXiv:1903.00161*, 2019.
+15. Chrisantha Fernando, Dylan Banarse, Henryk Michalewski, Simon Osindero, and Tim Rockt{"a}schel. {Promptbreeder: Self-referential self-improvement via prompt evolution}. *arXiv preprint arXiv:2309.16797*, 2023.
+16. Adam Fourney, Gagan Bansal, Hussein Mozannar, Cheng Tan, Eduardo Salinas, Friederike Niedtner, Grace Proebsting, Griffin Bassman, Jack Gerrits, Jacob Alber, et~al. Magentic-one: A generalist multi-agent system for solving complex tasks. *arXiv preprint arXiv:2411.04468*, 2024.
+17. Stephen Fowler. Scaffolded llms: Less obvious concerns. *LessWrong*, 2023. URL url{https://www.lesswrong.com/posts/mAwxebLw3nYbDivmt/scaffolded-llms-less-obvious-concerns}.
+18. Alireza Ghafarollahi and Markus~J Buehler. Sciagents: Automating scientific discovery through multi-agent intelligent graph reasoning. *arXiv preprint arXiv:2409.05556*, 2024.
+19. Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Song, and Jacob Steinhardt. Measuring massive multitask language understanding. *arXiv preprint arXiv:2009.03300*, 2020.
+20. Shengran Hu, Cong Lu, and Jeff Clune. Automated design of agentic systems. *arXiv preprint arXiv:2408.08435*, 2024{natexlab{a}}.
+21. Yafei Hu, Quanting Xie, Vidhi Jain, Jonathan Francis, Jay Patrikar, Nikhil Keetha, Seungchan Kim, Yaqi Xie, Tianyi Zhang, Hao-Shu Fang, et~al. Toward general-purpose robots via foundation models: A survey and meta-analysis. *arXiv preprint arXiv:2312.08782*, 2023.
+22. Yue Hu, Yuzhu Cai, Yaxin Du, Xinyu Zhu, Xiangrui Liu, Zijie Yu, Yuchen Hou, Shuo Tang, and Siheng Chen. Self-evolving multi-agent collaboration networks for software development. *arXiv preprint arXiv:2410.16946*, 2024{natexlab{b}}.
+23. Jen-tse Huang, Jiaxu Zhou, Tailin Jin, Xuhui Zhou, Zixi Chen, Wenxuan Wang, Youliang Yuan, Maarten Sap, and Michael~R Lyu. On the resilience of multi-agent systems with malicious agents. *arXiv preprint arXiv:2408.00989*, 2024.
+24. Adarsh Kesireddy and F~Antonio Medrano. Elite multi-criteria decision making—pareto front optimization in multi-objective optimization. *Algorithms*, 17penalty0 (5):penalty0 206, 2024.
+25. Akbir Khan. Why multi-agent safety is important. url{https://www.lesswrong.com/posts/pkfKRG9dQr6unrhQT/why-multi-agent-safety-is-important}, 2022. Accessed: 2025-01-30.
+26. Xiangrui Kong, Thomas Braunl, Marco Fahmi, and Yue Wang. A superalignment framework in autonomous driving with large language models. *arXiv preprint arXiv:2406.05651*, 2024.
+27. Ao~Li, Yuexiang Xie, Songze Li, Fugee Tsung, Bolin Ding, and Yaliang Li. Agent-oriented planning in multi-agent systems. *arXiv preprint arXiv:2410.02189*, 2024{natexlab{a}}.
+28. Lijun Li, Bowen Dong, Ruohui Wang, Xuhao Hu, Wangmeng Zuo, Dahua Lin, Yu~Qiao, and Jing Shao. Salad-bench: A hierarchical and comprehensive safety benchmark for large language models. *arXiv preprint arXiv:2402.05044*, 2024{natexlab{b}}.
+29. Stephanie Lin, Jacob Hilton, and Owain Evans. {TruthfulQA: Measuring how models mimic human falsehoods}. *arXiv preprint arXiv:2109.07958*, 2021.
+30. Yi~Liu, Gelei Deng, Yuekang Li, Kailong Wang, Zihao Wang, Xiaofeng Wang, Tianwei Zhang, Yepang Liu, Haoyu Wang, Yan Zheng, et~al. Prompt injection attack against llm-integrated applications. *arXiv preprint arXiv:2306.05499*, 2023.
+31. Chris Lu, Cong Lu, Robert~Tjarko Lange, Jakob Foerster, Jeff Clune, and David Ha. The ai scientist: Towards fully automated open-ended scientific discovery. *arXiv preprint arXiv:2408.06292*, 2024.
+32. Aman Madaan, Niket Tandon, Prakhar Gupta, Skyler Hallinan, Luyu Gao, Sarah Wiegreffe, Uri Alon, Nouha Dziri, Shrimai Prabhumoye, Yiming Yang, et~al. Self-refine: Iterative refinement with self-feedback. *Advances in Neural Information Processing Systems*, 36, 2024.
+33. {MLCommons Association}. Ailuminate v1.0 benchmark, 2025. URL url{https://ailuminate.mlcommons.org/benchmarks/}. Accessed: 2025-01-31.
+34. Jean-Baptiste Mouret and Jeff Clune. Illuminating search spaces by mapping elites. *arXiv preprint arXiv:1504.04909*, 2015.
+35. Subhabrata Mukherjee, Paul Gamble, Markel~Sanz Ausin, Neel Kant, Kriti Aggarwal, Neha Manjunath, Debajyoti Datta, Zhengliang Liu, Jiayuan Ding, Sophia Busacca, et~al. Polaris: A safety-focused llm constellation architecture for healthcare. *arXiv preprint arXiv:2403.13313*, 2024.
+36. OpenAI. simple-evals. url{https://github.com/openai/simple-evals}, 2023. Accessed: 2025-01-29.
+37. {OpenAI}. Gpt-4o mini: Advancing cost-efficient intelligence, 2024. URL url{https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/}.
+38. OpenAI. Learning to reason with llms, 2024{natexlab{a}}. URL url{https://openai.com/index/learning-to-reason-with-llms/}. Accessed: 2025-01-31.
+39. OpenAI. New embedding models and api updates, January 2024{natexlab{b}}. URL url{https://openai.com/research/new-embedding-models-and-api-updates}. Accessed: 2025-01-14.
+40. OpenAI. Computer-using agent: Introducing a universal interface for ai to interact with the digital world, 2025. URL url{https://openai.com/index/computer-using-agent}.
+41. Ethan Perez, Saffron Huang, Francis Song, Trevor Cai, Roman Ring, John Aslanides, Amelia Glaese, Nat McAleese, and Geoffrey Irving. Red teaming language models with language models. *arXiv preprint arXiv:2202.03286*, 2022.
+42. Chen Qian, Xin Cong, Cheng Yang, Weize Chen, Yusheng Su, Juyuan Xu, Zhiyuan Liu, and Maosong Sun. Communicative agents for software development. *arXiv preprint arXiv:2307.07924*, 6penalty0 (3), 2023.
+43. David Rein, Betty~Li Hou, Asa~Cooper Stickland, Jackson Petty, Richard~Yuanzhe Pang, Julien Dirani, Julian Michael, and Samuel~R Bowman. Gpqa: A graduate-level google-proof q&a benchmark. *arXiv preprint arXiv:2311.12022*, 2023.
+44. Bernardino Romera-Paredes, Mohammadamin Barekatain, Alexander Novikov, Matej Balog, M~Pawan Kumar, Emilien Dupont, Francisco~JR Ruiz, Jordan~S Ellenberg, Pengming Wang, Omar Fawzi, et~al. Mathematical discoveries from program search with large language models. *Nature*, 625penalty0 (7995):penalty0 468--475, 2024.
+45. Mikayel Samvelyan, Sharath~Chandra Raparthy, Andrei Lupu, Eric Hambro, Aram~H Markosyan, Manish Bhatt, Yuning Mao, Minqi Jiang, Jack Parker-Holder, Jakob Foerster, et~al. Rainbow teaming: Open-ended generation of diverse adversarial prompts. *arXiv preprint arXiv:2402.16822*, 2024.
+46. Sebastian Sartor and Neil Thompson. Neural scaling laws for embodied ai. *arXiv preprint arXiv:2405.14005*, 2024.
+47. Freda Shi, Mirac Suzgun, Markus Freitag, Xuezhi Wang, Suraj Srivats, Soroush Vosoughi, Hyung~Won Chung, Yi~Tay, Sebastian Ruder, Denny Zhou, et~al. Language models are multilingual chain-of-thought reasoners. *URL https://arxiv. org/abs/2210.03057*, 2022.
+48. Hongda Sun, Weikai Xu, Wei Liu, Jian Luan, Bin Wang, Shuo Shang, Ji-Rong Wen, and Rui Yan. Determlr: Augmenting llm-based logical reasoning from indeterminacy to determinacy. In *Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)*, pages 9828--9862, 2024.
+49. Minyang Tian, Luyu Gao, Shizhuo~Dylan Zhang, Xinan Chen, Cunwei Fan, Xuefei Guo, Roland Haas, Pan Ji, Kittithat Krongchon, Yao Li, et~al. Scicode: A research coding benchmark curated by scientists. *arXiv preprint arXiv:2407.13168*, 2024.
+50. Yoshija Walter. Artificial influencers and the dead internet theory. *AI & SOCIETY*, pages 1--2, 2024.
+51. Jianxun Wang and Yixiang Chen. A review on code generation with llms: Application and evaluation. In *2023 IEEE International Conference on Medical Artificial Intelligence (MedAI)*, pages 284--289. IEEE, 2023.
+52. Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed~Chi, Sharan Narang, Aakanksha Chowdhery, and Denny Zhou. Self-consistency improves chain of thought reasoning in language models. *arXiv preprint arXiv:2203.11171*, 2022.
+53. Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Fei Xia, Ed~Chi, Quoc~V Le, Denny Zhou, et~al. Chain-of-thought prompting elicits reasoning in large language models. *Advances in neural information processing systems*, 35:penalty0 24824--24837, 2022.
+54. Anna~Christina Weigand, Daniel Lange, and Maria Rauschenberger. How can small data sets be clustered?, 2021.
+55. Benfeng Xu, An~Yang, Junyang Lin, Quan Wang, Chang Zhou, Yongdong Zhang, and Zhendong Mao. Expertprompting: Instructing large language models to be distinguished experts. *arXiv preprint arXiv:2305.14688*, 2023.
+56. Fengli Xu, Qianyue Hao, Zefang Zong, Jingwei Wang, Yunke Zhang, Jingyi Wang, Xiaochong Lan, Jiahui Gong, Tianjian Ouyang, Fanjin Meng, et~al. Towards large reasoning models: A survey of reinforced reasoning with large language models. *arXiv preprint arXiv:2501.09686*, 2025.
+57. Xiangyuan Xue, Zeyu Lu, Di~Huang, Zidong Wang, Wanli Ouyang, and Lei Bai. Comfybench: Benchmarking llm-based agents in comfyui for autonomously designing collaborative ai systems, 2024. URL url{https://arxiv.org/abs/2409.01392}.
+58. Yingxuan Yang, Qiuying Peng, Jun Wang, and Weinan Zhang. Multi-llm-agent systems: Techniques and business perspectives. *arXiv preprint arXiv:2411.14033*, 2024.
+59. Burak Yeti{c{s}}tiren, I{c{s}}{i}k {"O}zsoy, Miray Ayerdem, and Eray T{"u}z{"u}n. Evaluating the code quality of ai-assisted code generation tools: An empirical study on github copilot, amazon codewhisperer, and chatgpt. *arXiv preprint arXiv:2304.10778*, 2023.
+60. Xunjian Yin, Xinyi Wang, Liangming Pan, Xiaojun Wan, and William~Yang Wang. G$backslash$" odel agent: A self-referential agent framework for recursive self-improvement. *arXiv preprint arXiv:2410.04444*, 2024.
+61. Jiahao Yu, Xingwei Lin, Zheng Yu, and Xinyu Xing. Gptfuzzer: Red teaming large language models with auto-generated jailbreak prompts. *arXiv preprint arXiv:2309.10253*, 2023.
+62. Siyu Yuan, Kaitao Song, Jiangjie Chen, Xu~Tan, Dongsheng Li, and Deqing Yang. Evoagent: Towards automatic multi-agent generation via evolutionary algorithms. *arXiv preprint arXiv:2406.14228*, 2024.
+63. Wojciech Zaremba, Evgenia Nitishinskaya, Boaz Barak, Stephanie Lin, Sam Toyer, Yaodong Yu, Rachel Dias, Eric Wallace, Kai Xiao, and Johannes Heidecke~Amelia Glaese. Trading inference-time compute for adversarial robustness., 2025.
+64. Zaibin Zhang, Yongting Zhang, Lijun Li, Hongzhi Gao, Lijun Wang, Huchuan Lu, Feng Zhao, Yu~Qiao, and Jing Shao. Psysafe: A comprehensive framework for psychological-based attack, defense, and evaluation of multi-agent system safety. *arXiv preprint arXiv:2401.11880*, 2024.
+65. Qihao Zhao, Yangyu Huang, Tengchao Lv, Lei Cui, Qinzheng Sun, Shaoguang Mao, Xin Zhang, Ying Xin, Qiufeng Yin, Scarlett Li, et~al. Mmlu-cf: A contamination-free multi-task language understanding benchmark. *arXiv preprint arXiv:2412.15194*, 2024.
+66. Wayne~Xin Zhao, Kun Zhou, Junyi Li, Tianyi Tang, Xiaolei Wang, Yupeng Hou, Yingqian Min, Beichen Zhang, Junjie Zhang, Zican Dong, et~al. A survey of large language models. *arXiv preprint arXiv:2303.18223*, 2023.
+67. Huaixiu~Steven Zheng, Swaroop Mishra, Xinyun Chen, Heng-Tze Cheng, Ed~H Chi, Quoc~V Le, and Denny Zhou. Take a step back: Evoking reasoning via abstraction in large language models. *arXiv preprint arXiv:2310.06117*, 2023.
