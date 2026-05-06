@@ -1,0 +1,63 @@
+# 参考文献一覧
+
+※ 本自動抽出は正規表現による簡易版です。一部LaTex特殊文字が残る場合があります。
+
+1. L.~Ouyang, J.~Wu, X.~Jiang, D.~Almeida, C.~Wainwright, P.~Mishkin, C.~Zhang, S.~Agarwal, K.~Slama, A.~Ray *et~al.*, ``Training language models to follow instructions with human feedback,'' *Advances in Neural Information Processing Systems*, pp. 27,730--27,744, 2022.
+2. T.~Brown, B.~Mann, N.~Ryder, M.~Subbiah, J.~D. Kaplan, P.~Dhariwal, A.~Neelakantan, P.~Shyam, G.~Sastry, A.~Askell *et~al.*, ``Language models are few-shot learners,'' *Advances in neural information processing systems*, pp. 1877--1901, 2020.
+3. H.~Touvron, T.~Lavril, G.~Izacard, X.~Martinet, M.-A. Lachaux, T.~Lacroix, B.~Rozi{`e}re, N.~Goyal, E.~Hambro, F.~Azhar *et~al.*, ``Llama: Open and efficient foundation language models,'' *arXiv:2302.13971*, 2023.
+4. W.~X. Zhao, K.~Zhou, J.~Li, T.~Tang, X.~Wang, Y.~Hou, Y.~Min, B.~Zhang, J.~Zhang, Z.~Dong *et~al.*, ``A survey of large language models,'' *arXiv:2303.18223*, 2023.
+5. J.~Li, D.~Li, S.~Savarese, and S.~C.~H. Hoi, ``Blip-2: Bootstrapping language-image pre-training with frozen image encoders and large language models,'' in *International Conference on Machine Learning*, 2023, pp. 19,730--19,742.
+6. K.~Singhal, S.~Azizi, T.~Tu, S.~S. Mahdavi, J.~Wei, H.~W. Chung, N.~Scales, A.~Tanwani, H.~Cole-Lewis, S.~Pfohl *et~al.*, ``Large language models encode clinical knowledge,'' *Nature*, vol. 620, no. 7972, pp. 172--180, 2023.
+7. I.~Singh, V.~Blukis, A.~Mousavian, A.~Goyal, D.~Xu, J.~Tremblay, D.~Fox, J.~Thomason, and A.~Garg, ``Progprompt: Generating situated robot task plans using large language models,'' in *2023 IEEE International Conference on Robotics and Automation (ICRA)*, 2023, pp. 11,523--11,530.
+8. L.~Yang, H.~Chen, Z.~Li, X.~Ding, and X.~Wu, ``Give us the facts: Enhancing large language models with knowledge graphs for fact-aware language modeling,'' *IEEE Transactions on Knowledge and Data Engineering*, pp. 1--20, 2024.
+9. S.~Sanner, K.~Balog, F.~Radlinski, B.~Wedin, and L.~Dixon, ``Large language models are competitive near cold-start recommenders for language-and item-based preferences,'' in *Proceedings of the 17th ACM Conference on Recommender Systems*, 2023, pp. 890--896.
+10. L.~Wu, Z.~Zheng, Z.~Qiu, H.~Wang, H.~Gu, T.~Shen, C.~Qin, C.~Zhu, H.~Zhu, Q.~Liu *et~al.*, ``A survey on large language models for recommendation,'' *arXiv:2305.19860*, 2023.
+11. Z.~Zhao, W.~Fan, J.~Li, Y.~Liu, X.~Mei, Y.~Wang, Z.~Wen, F.~Wang, X.~Zhao, J.~Tang, and Q.~Li, ``Recommender systems in the era of large language models (llms),'' *{IEEE* Trans. Knowl. Data Eng.}, pp. 1--20, 2024.
+12. K.~Bao, J.~Zhang, Y.~Zhang, W.~Wang, F.~Feng, and X.~He, ``Tallrec: An effective and efficient tuning framework to align large language model with recommendation,'' in *Proceedings of the 17th ACM Conference on Recommender Systems*, 2023, p. 1007–1014.
+13. J.~Zhang, K.~Bao, Y.~Zhang, W.~Wang, F.~Feng, and X.~He, ``Is chatgpt fair for recommendation? evaluating fairness in large language model recommendation,'' in *Proceedings of the 17th ACM Conference on Recommender Systems*, 2023, pp. 993--999.
+14. Y.~Koren, R.~Bell, and C.~Volinsky, ``Matrix factorization techniques for recommender systems,'' *Computer*, vol.~42, no.~8, pp. 30--37, 2009.
+15. R.~He and J.~McAuley, ``Ups and downs: Modeling the visual evolution of fashion trends with one-class collaborative filtering,'' in *proceedings of the 25th international conference on world wide web*, 2016, pp. 507--517.
+16. Y.~Zhang, H.~DING, Z.~Shui, Y.~Ma, J.~Zou, A.~Deoras, and H.~Wang, ``Language models as recommender systems: Evaluations and limitations,'' in *I (Still) Can't Believe It's Not Better! NeurIPS 2021 Workshop*, 2021.
+17. S.~Dai, N.~Shao, H.~Zhao, W.~Yu, Z.~Si, C.~Xu, Z.~Sun, X.~Zhang, and J.~Xu, ``Uncovering chatgpt’s capabilities in recommender systems,'' in *Proceedings of the 17th ACM Conference on Recommender Systems*, 2023, p. 1126–1132.
+18. Y.~Gao, T.~Sheng, Y.~Xiang, Y.~Xiong, H.~Wang, and J.~Zhang, ``Chat-rec: Towards interactive and explainable llms-augmented recommender system,'' *arXiv*, 2023.
+19. W.-C. Kang, J.~Ni, N.~Mehta, M.~Sathiamoorthy, L.~Hong, E.~Chi, and D.~Z. Cheng, ``Do llms understand user preferences? evaluating llms on user rating prediction,'' *arXiv*, 2023.
+20. K.~Bao, J.~Zhang, W.~Wang, Y.~Zhang, Z.~Yang, Y.~Luo, F.~Feng, X.~He, and Q.~Tian, ``A bi-step grounding paradigm for large language models in recommendation systems,'' *arXiv:2308.08434*, 2023.
+21. J.~Zhang, R.~Xie, Y.~Hou, W.~X. Zhao, L.~Lin, and J.-R. Wen, ``Recommendation as instruction following: A large language model empowered recommendation approach,'' *arXiv:2305.07001*, 2023.
+22. J.~Lin, R.~Shan, C.~Zhu, K.~Du, B.~Chen, S.~Quan, R.~Tang, Y.~Yu, and W.~Zhang, ``Rella: Retrieval-enhanced large language models for lifelong sequential behavior comprehension in recommendation,'' in *The Web Conference 2024*.
+23. X.~Li, B.~Chen, L.~Hou, and R.~Tang, ``Ctrl: Connect tabular and language model for ctr prediction,'' *arXiv*, 2023.
+24. L.~Wu, X.~He, X.~Wang, K.~Zhang, and M.~Wang, ``A survey on accuracy-oriented neural recommendation: From collaborative filtering to information-rich recommendation,'' *{IEEE* Trans. Knowl. Data Eng.}, vol.~35, pp. 4425--4445, 2023.
+25. X.~Luo, Y.~Zhou, Z.~Liu, and M.~Zhou, ``Fast and accurate non-negative latent factor analysis of high-dimensional and sparse matrices in recommender systems,'' *{IEEE* Trans. Knowl. Data Eng.}, vol.~35, no.~4, pp. 3897--3911, 2023.
+26. G.~Del{'e}tang, A.~Ruoss, P.-A. Duquenne, E.~Catt, T.~Genewein, C.~Mattern, J.~Grau-Moya, L.~K. Wenliang, M.~Aitchison, L.~Orseau *et~al.*, ``Language modeling is compression,'' *arXiv:2309.10668*, 2023.
+27. J.~Xu, H.~Zhou, C.~Gan, Z.~Zheng, and L.~Li, ``Vocabulary learning via optimal transport for neural machine translation,'' in *{ACL/IJCNLP* 2021}, 2021, pp. 7361--7373.
+28. X.~He, K.~Deng, X.~Wang, Y.~Li, Y.~Zhang, and M.~Wang, ``Lightgcn: Simplifying and powering graph convolution network for recommendation,'' in *Proceedings of the 43rd International ACM SIGIR conference on research and development in Information Retrieval*, 2020, pp. 639--648.
+29. J.~Lin, X.~Dai, Y.~Xi, W.~Liu, B.~Chen, X.~Li, C.~Zhu, H.~Guo, Y.~Yu, R.~Tang *et~al.*, ``How can recommender systems benefit from large language models: A survey,'' *arXiv:2306.05817*, 2023.
+30. Q.~Ai, T.~Bai, Z.~Cao, Y.~Chang, J.~Chen, Z.~Chen, Z.~Cheng, S.~Dong, Z.~Dou, F.~Feng *et~al.*, ``Information retrieval meets large language models: A strategic report from chinese ir community,'' *AI Open*, vol.~4, pp. 80--90, 2023.
+31. J.~Liu, C.~Liu, R.~Lv, K.~Zhou, and Y.~Zhang, ``Is chatgpt a good recommender? a preliminary study,'' *arXiv:2304.10149*, 2023.
+32. Y.~Feng, S.~Liu, Z.~Xue, Q.~Cai, L.~Hu, P.~Jiang, K.~Gai, and F.~Sun, ``A large language model enhanced conversational recommender system,'' *CoRR*, vol. abs/2308.06212, 2023.
+33. X.~Huang, J.~Lian, Y.~Lei, J.~Yao, D.~Lian, and X.~Xie, ``Recommender ai agent: Integrating large language models for interactive recommendations,'' *arXiv:2308.16505*, 2023.
+34. J.~Wei, J.~Wei, Y.~Tay, D.~Tran, A.~Webson, Y.~Lu, X.~Chen, H.~Liu, D.~Huang, D.~Zhou *et~al.*, ``Larger language models do in-context learning differently,'' *arXiv:2303.03846*, 2023.
+35. Y.~Zhu, L.~Wu, Q.~Guo, L.~Hong, and J.~Li, ``Collaborative large language model for recommender systems,'' in *Proceedings of the ACM on Web Conference 2024*, 2024, pp. 3162--3172.
+36. B.~Zheng, Y.~Hou, H.~Lu, Y.~Chen, W.~X. Zhao, M.~Chen, and J.-R. Wen, ``Adapting large language models by integrating collaborative semantics for recommendation,'' in *2024 IEEE 40th International Conference on Data Engineering (ICDE)*.hskip 1em plus 0.5em minus 0.4emrelax IEEE, 2024, pp. 1435--1448.
+37. A.~Muhamed, I.~Keivanloo, S.~Perera, J.~Mracek, Y.~Xu, Q.~Cui, S.~Rajagopalan, B.~Zeng, and T.~Chilimbi, ``Ctr-bert: Cost-effective knowledge distillation for billion-parameter teacher models,'' in *NeurIPS Efficient Natural Language and Speech Processing Workshop*, 2021.
+38. S.~Wu, H.~Fei, L.~Qu, W.~Ji, and T.-S. Chua, ``Next-gpt: Any-to-any multimodal llm,'' *arXiv:2309.05519*, 2023.
+39. D.~Zhu, J.~Chen, X.~Shen, X.~Li, and M.~Elhoseiny, ``Mini{GPT}-4: Enhancing vision-language understanding with advanced large language models,'' in *The Twelfth International Conference on Learning Representations*, 2024.
+40. D.~Zhang, S.~Li, X.~Zhang, J.~Zhan, P.~Wang, Y.~Zhou, and X.~Qiu, ``Speech{GPT}: Empowering large language models with intrinsic cross-modal conversational abilities,'' in *EMNLP*, 2023.
+41. D.~Driess, F.~Xia, M.~S.~M. Sajjadi, C.~Lynch, A.~Chowdhery, B.~Ichter, A.~Wahid, J.~Tompson, Q.~Vuong, T.~Yu, W.~Huang, Y.~Chebotar, P.~Sermanet, D.~Duckworth, S.~Levine, V.~Vanhoucke, K.~Hausman, M.~Toussaint, K.~Greff, A.~Zeng, I.~Mordatch, and P.~Florence, ``Palm-e: an embodied multimodal language model,'' in *Proceedings of the 40th International Conference on Machine Learning*, 2023.
+42. BIBentryALTinterwordspacing W.-L. Chiang, Z.~Li, Z.~Lin, Y.~Sheng, Z.~Wu, H.~Zhang, L.~Zheng, S.~Zhuang, Y.~Zhuang, J.~E. Gonzalez, I.~Stoica, and E.~P. Xing, ``Vicuna: An open-source chatbot impressing gpt-4 with 90%* chatgpt quality,'' March 2023. [Online]. Available: url{https://lmsys.org/blog/2023-03-30-vicuna/} BIBentrySTDinterwordspacing
+43. E.~J. Hu, Y.~Shen, P.~Wallis, Z.~Allen{-}Zhu, Y.~Li, S.~Wang, L.~Wang, and W.~Chen, ``Lora: Low-rank adaptation of large language models,'' in *ICLR*, 2022.
+44. I.~Gim, G.~Chen, S.-s. Lee, N.~Sarda, A.~Khandelwal, and L.~Zhong, ``Prompt cache: Modular attention reuse for low-latency inference,'' *arXiv:2311.04934*, 2023.
+45. F.~M. Harper and J.~A. Konstan, ``The movielens datasets: History and context,'' *Acm transactions on interactive intelligent systems (tiis)*, vol.~5, no.~4, pp. 1--19, 2015.
+46. W.~Wang, Y.~Xu, F.~Feng, X.~Lin, X.~He, and T.-S. Chua, ``Diffusion recommender model,'' in *SIGIR*, 2023, p. 832–841.
+47. Y.~Ji, A.~Sun, J.~Zhang, and C.~Li, ``A critical study on data leakage in recommender system offline evaluation,'' *{ACM* Trans. Inf. Syst.}, vol.~41, no.~3, pp. 75:1--75:27, 2023.
+48. Y.~Zhang, F.~Feng, C.~Wang, X.~He, M.~Wang, Y.~Li, and Y.~Zhang, ``How to retrain recommender system? a sequential meta-learning method,'' in *Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval*, 2020, pp. 1479--1488.
+49. Y.~Liu, Q.~Liu, Y.~Tian, C.~Wang, Y.~Niu, Y.~Song, and C.~Li, ``Concept-aware denoising graph neural network for micro-video recommendation,'' in *Proceedings of the 30th ACM International Conference on Information & Knowledge Management*, 2021, pp. 1099--1108.
+50. K.~J{"a}rvelin and J.~Kek{"a}l{"a}inen, ``Cumulated gain-based evaluation of ir techniques,'' *ACM Transactions on Information Systems (TOIS)*, vol.~20, no.~4, pp. 422--446, 2002.
+51. W.-C. Kang and J.~McAuley, ``Self-attentive sequential recommendation,'' in *ICDM*, 2018, pp. 197--206.
+52. G.~Zhou, X.~Zhu, C.~Song, Y.~Fan, H.~Zhu, X.~Ma, Y.~Yan, J.~Jin, H.~Li, and K.~Gai, ``Deep interest network for click-through rate prediction,'' in *Proceedings of the 24th ACM SIGKDD international conference on knowledge discovery & data mining*, 2018, pp. 1059--1068.
+53. Z.~Zhang and B.~Wang, ``Prompt learning for news recommendation,'' in *Proceedings of the 46th International {ACM* {SIGIR} Conference on Research and Development in Information Retrieval}.hskip 1em plus 0.5em minus 0.4emrelax {ACM}, 2023, pp. 227--237.
+54. J.~Devlin, M.~Chang, K.~Lee, and K.~Toutanova, ``{BERT:} pre-training of deep bidirectional transformers for language understanding,'' in *NAACL-HLT*, 2019, pp. 4171--4186.
+55. S.~Geng, S.~Liu, Z.~Fu, Y.~Ge, and Y.~Zhang, ``Recommendation as language processing (rlp): A unified pretrain, personalized prompt & predict paradigm (p5),'' in *Proceedings of the 16th ACM Conference on Recommender Systems*, 2022, pp. 299--315.
+56. D.~P. Kingma and J.~Ba, ``Adam: {A} method for stochastic optimization,'' in *ICLR*, 2015.
+57. T.~G. Dietterich, ``Ensemble methods in machine learning,'' in *International workshop on multiple classifier systems*.hskip 1em plus 0.5em minus 0.4emrelax Springer, 2000, pp. 1--15.
+58. Y.~Xu, L.~Zhu, Z.~Cheng, J.~Li, Z.~Zhang, and H.~Zhang, ``Multi-modal discrete collaborative filtering for efficient cold-start recommendation,'' *IEEE Transactions on Knowledge and Data Engineering*, vol.~35, no.~1, pp. 741--755, 2023.
+59. A.~Yang, B.~Yang, B.~Hui, B.~Zheng, B.~Yu, C.~Zhou, C.~Li, C.~Li, D.~Liu, F.~Huang *et~al.*, ``Qwen2 technical report,'' *arXiv preprint arXiv:2407.10671*, 2024.
