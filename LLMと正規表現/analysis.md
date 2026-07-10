@@ -18,7 +18,6 @@
 | **Dong (2024b)** | 2024年 | arXiv | CFG/PDA | 速度 | **XGrammar**を提案。語彙を「状態非依存トークン（事前計算可）」と「状態依存トークン（実行時）」に分割し、GPU生成とCPUマスク計算を並行実行。従来比 **最大100倍の高速化**。vLLM等に採用。 |
 | **Park (2024)** | 2024年 | NeurIPS '24 | FSM/CFG | 品質 | **GAD / ASAp**を提案。単純なトークンマスクは将来の文法適合性を無視するため元のLLM確率分布を歪める（確率歪み問題）ことを定式化し、過去サンプルを使った再重み付けで改善。 |
 | **Banerjee (2025)** | 2025年 | ICML '25 | FSM/CFG | 品質・推論 | **CRANE**を提案。厳密な文法制約はLLMの推論能力を理論的に劣化させる（$TC^0$制限）ことを証明。推論フェーズは制約なし・出力フェーズは制約ありに切り替える文法拡張デコードで数学・論理推論を **最大10ポイント改善**。 |
-| **Zhang (2023)** | 2023年 | ASE '23 | — | 正規表現生成 | **InfeRE**を提案。自然言語→正規表現（NL2RE）タスクを連鎖推論（Chain of Inference）に分解し、自己一貫性デコードと組み合わせてDFA@5精度を大幅改善。 |
 | **Boggust (2025)** | 2025年 | ICLR '26 | — | 解釈可能性 | **Semantic Regexes**を提案。スパースオートエンコーダで得たLLM特徴量を「意味的正規表現」という構造化言語で記述。自然言語説明より一貫性が高く特徴量の複雑さを定量化できる。 |
 | **Scholak (2021)** | 2021年 | EMNLP '21 | CFG（SQL） | 正確性 | **PICARD**を提案。SQL生成において生成中トークンをEarleyパーサで逐次検証し、無効プレフィックスをビームから即時除外。学習追加なしでSpiderベンチマーク **SOTA（EM+12ポイント）** を達成。 |
 | **Poesia (2022)** | 2022年 | ICLR '22 | FSM/CFG | 正確性・汎用性 | **Synchromesh**を提案。正規表現・CFGベースのCompletion Engineで各ステップの有効トークンを決定。DSL・化学式などタスク固有の形式に特化した制約でFew-shot精度を **3〜6倍** 改善。 |
@@ -50,7 +49,6 @@
 | **Dong (2024b)** | ★ | ★ | ★ | | |
 | **Park (2024)** | ★ | ★ | | | |
 | **Banerjee (2025)** | ★ | ★ | | | |
-| **Zhang (2023)** | | | | | |
 | **Scholak (2021)** | | ★ | | | |
 | **Poesia (2022)** | ★ | ★ | | | |
 | **Soldaini (2024)** | | | | ★ | |
@@ -221,12 +219,6 @@ REST:
   文法制約の厳しさがLLMの推論能力を理論的に劣化させることを示し、推論と構造制約を両立するデコードアルゴリズム「CRANE」を提案した研究。
   厳密な文法制約はLLMの表現クラスを $TC^0$ に制限し連鎖推論（CoT）の恩恵を失わせることを理論的に証明。追加規則による文法拡張（Grammar Augmentation）で推論フェーズを非制約にしつつ最終出力フェーズを制約付きにするアプローチにより、数学推論（GSM-Symbolic）や論理推論（FOLIO）ベンチマークで最大 **10ポイント精度改善** を達成した。
 
-### 7. [InfeRE: Step-by-Step Regex Generation via Chain of Inference](./article_summaries/InfeRE:%20Step-by-Step%20Regex%20Generation%20via%20Chain%20of%20Inference/summary.md)
-* **著者**: Shuai Zhang, Xiaodong Gu, Yuting Chen, Beijun Shen (上海交通大学)
-* **発表会議**: ASE 2023 (arXiv:2308.04041)
-* **概要**: 
-  自然言語記述からの正規表現生成（NL2RE）タスクを、一括生成ではなく「連鎖推論（Chain of Inference）」に分解する新パラダイム「InfeRE」を提案した研究。
-  正規表現の各部分を段階的なサブ推論ステップとして生成することで、テキストマッチングの論理構造に沿った解釈可能な生成を実現。自己一貫性デコード（Self-Consistency Decoding）により複数モデルのアンサンブルを行い、NL-RX-TurkおよびKB13データセットにおいて DFA@5 精度で先行研究（TRANXなど）を大幅に上回った。
 
 ### 8. [Semantic Regexes: Auto-Interpreting LLM Features with a Structured Language](./article_summaries/Semantic%20Regexes:%20Auto-Interpreting%20LLM%20Features%20with%20a%20Structured%20Language/summary.md)
 * **著者**: Angie Boggust, Donghao Ren, Yannick Assogba, Dominik Moritz, Arvind Satyanarayan, Fred Hohman (Apple / CMU / MIT)
