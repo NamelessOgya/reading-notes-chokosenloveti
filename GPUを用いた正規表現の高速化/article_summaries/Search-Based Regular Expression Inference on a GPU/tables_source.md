@@ -1,0 +1,9 @@
+# 抽出されたLaTeXテーブル
+
+以下のテーブル構造をLLMやPandas等でMarkdown化する際の入力基板として利用できます。
+
+## Table 1
+```latex
+\begin{table}}{\end{table}
+```
+
