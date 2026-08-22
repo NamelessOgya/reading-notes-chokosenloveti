@@ -1,0 +1,38 @@
+# 参考文献一覧
+
+※ 本自動抽出は正規表現による簡易版です。一部LaTex特殊文字が残る場合があります。
+
+1. W.~Xi, Y.~Zhang, C.~Xiao, X.~Huang, S.~Deng, H.~Liang, J.~Chen, and P.~Sun, ``Mastering strategy card game (legends of code and magic) via end-to-end policy and optimistic smooth fictitious play,'' emph{arXiv preprint arXiv:2303.04096}, 2023.
+2. A.~P. Badia, B.~Piot, S.~Kapturowski, P.~Sprechmann, A.~Vitvitskyi, Z.~D. Guo, and C.~Blundell, ``Agent57: Outperforming the atari human benchmark,'' in *International conference on machine learning*.hskip 1em plus 0.5em minus 0.4emrelax PMLR, 2020, pp. 507--517.
+3. G.~Wayne, C.-C. Hung, D.~Amos, M.~Mirza, A.~Ahuja, A.~Grabska-Barwinska, J.~Rae, P.~Mirowski, J.~Z. Leibo, A.~Santoro *et~al.*, ``Unsupervised predictive memory in a goal-directed agent,'' emph{arXiv preprint arXiv:1803.10760}, 2018.
+4. D.~Silver, A.~Huang, C.~J. Maddison, A.~Guez, L.~Sifre, G.~Van Den~Driessche, J.~Schrittwieser, I.~Antonoglou, V.~Panneershelvam, M.~Lanctot *et~al.*, ``Mastering the game of go with deep neural networks and tree search,'' *nature*, vol. 529, no. 7587, pp. 484--489, 2016.
+5. C.~Berner, G.~Brockman, B.~Chan, V.~Cheung, P.~Debiak, C.~Dennison, D.~Farhi, Q.~Fischer, S.~Hashme, C.~Hesse *et~al.*, ``Dota 2 with large scale deep reinforcement learning,'' *arXiv preprint arXiv:1912.06680*, 2019.
+6. O.~Vinyals, I.~Babuschkin, W.~M. Czarnecki, M.~Mathieu, A.~Dudzik, J.~Chung, D.~H. Choi, R.~Powell, T.~Ewalds, P.~Georgiev *et~al.*, ``Grandmaster level in starcraft ii using multi-agent reinforcement learning,'' *Nature*, vol. 575, no. 7782, pp. 350--354, 2019.
+7. J.~Li, S.~Koyamada, Q.~Ye, G.~Liu, C.~Wang, R.~Yang, L.~Zhao, T.~Qin, T.-Y. Liu, and H.-W. Hon, ``Suphx: Mastering mahjong with deep reinforcement learning,'' *arXiv preprint arXiv:2003.13590*, 2020.
+8. S.~Kapturowski, G.~Ostrovski, J.~Quan, R.~Munos, and W.~Dabney, ``Recurrent experience replay in distributed reinforcement learning,'' in *International conference on learning representations*, 2019.
+9. E.~Parisotto, F.~Song, J.~Rae, R.~Pascanu, C.~Gulcehre, S.~Jayakumar, M.~Jaderberg, R.~L. Kaufman, A.~Clark, S.~Noury *et~al.*, ``Stabilizing transformers for reinforcement learning,'' in emph{International conference on machine learning}.hskip 1em plus 0.5em minus 0.4emrelax PMLR, 2020, pp. 7487--7498.
+10. D.~Hafner, T.~Lillicrap, I.~Fischer, R.~Villegas, D.~Ha, H.~Lee, and J.~Davidson, ``Learning latent dynamics for planning from pixels,'' in *International conference on machine learning*.hskip 1em plus 0.5em minus 0.4emrelax PMLR, 2019, pp. 2555--2565.
+11. J.~Foerster, G.~Farquhar, T.~Afouras, N.~Nardelli, and S.~Whiteson, ``Counterfactual multi-agent policy gradients,'' in emph{Proceedings of the AAAI conference on artificial intelligence}, vol.~32, no.~1, 2018.
+12. M.~Zinkevich, M.~Johanson, M.~Bowling, and C.~Piccione, ``Regret minimization in games with incomplete information,'' emph{Advances in neural information processing systems}, vol.~20, 2007.
+13. N.~Brown, A.~Lerer, S.~Gross, and T.~Sandholm, ``Deep counterfactual regret minimization,'' in *International conference on machine learning*.hskip 1em plus 0.5em minus 0.4emrelax PMLR, 2019, pp. 793--802.
+14. P.~Mertikopoulos and Z.~Zhou, ``Learning in games with continuous action sets and unknown payoff functions,'' *Mathematical Programming*, vol. 173, pp. 465--507, 2019.
+15. Y.~Nesterov, ``Primal-dual subgradient methods for convex problems,'' *Mathematical programming*, vol. 120, no.~1, pp. 221--259, 2009.
+16. J.~Heinrich, M.~Lanctot, and D.~Silver, ``Fictitious self-play in extensive-form games,'' in emph{International conference on machine learning}.hskip 1em plus 0.5em minus 0.4emrelax PMLR, 2015, pp. 805--813.
+17. C.-W. Lee, C.~Kroer, and H.~Luo, ``Last-iterate convergence in extensive-form games,'' *Advances in Neural Information Processing Systems*, vol.~34, pp. 14,293--14,305, 2021.
+18. K.~Abe, K.~Ariu, M.~Sakamoto, K.~Toyoshima, and A.~Iwasaki, ``Last-iterate convergence with full-and noisy-information feedback in two-player zero-sum games,'' *arXiv preprint arXiv:2208.09855*, 2022.
+19. S.~Sokota, R.~D'Orazio, J.~Z. Kolter, N.~Loizou, M.~Lanctot, I.~Mitliagkas, N.~Brown, and C.~Kroer, ``A unified approach to reinforcement learning, quantal response equilibria, and two-player zero-sum games,'' emph{arXiv preprint arXiv:2206.05825}, 2022.
+20. A.~Santos, P.~A. Santos, and F.~S. Melo, ``Monte carlo tree search experiments in hearthstone,'' in emph{2017 IEEE conference on computational intelligence and games (CIG)}.hskip 1em plus 0.5em minus 0.4emrelax IEEE, 2017, pp. 272--279.
+21. S.~Zhang and M.~Buro, ``Improving hearthstone ai by learning high-level rollout policies and bucketing chance node events,'' in emph{2017 IEEE conference on computational intelligence and games (CIG)}.hskip 1em plus 0.5em minus 0.4emrelax IEEE, 2017, pp. 309--316.
+22. N.~Zolboot, Q.~Johnson, D.~Shen, and A.~Redei, ``Hearthstone battleground: An ai assistant with monte carlo tree search,'' emph{Proceedings of 37th International Confer}, vol.~82, pp. 131--140, 2022.
+23. P.~Garc{'i}a-S{'a}nchez, A.~Tonda, A.~J. Fern{'a}ndez-Leiva, and C.~Cotta, ``Optimizing hearthstone agents using an evolutionary algorithm,'' *Knowledge-Based Systems*, vol. 188, p. 105032, 2020.
+24. M.~{'S}wiechowski, T.~Tajmajer, and A.~Janusz, ``Improving hearthstone ai by combining mcts and supervised learning algorithms,'' in emph{2018 IEEE conference on computational intelligence and games (CIG)}.hskip 1em plus 0.5em minus 0.4emrelax IEEE, 2018, pp. 1--8.
+25. BIBentryALTinterwordspacing A.~Dockhorn and S.~Mostaghim, ``{Introducing the Hearthstone-AI Competition},'' pp. 1--4, may 2019. [Online]. Available: url{http://arxiv.org/abs/1906.04238} BIBentrySTDinterwordspacing
+26. Y.-J. Yang, T.-S. Yeh, and T.-C. Chiang, ``Deck building in collectible card games using genetic algorithms: A case study of legends of code and magic,'' in emph{2021 IEEE Symposium Series on Computational Intelligence (SSCI)}.hskip 1em plus 0.5em minus 0.4emrelax IEEE, 2021, pp. 01--07.
+27. C.~B. Browne, E.~Powley, D.~Whitehouse, S.~M. Lucas, P.~I. Cowling, P.~Rohlfshagen, S.~Tavener, D.~Perez, S.~Samothrakis, and S.~Colton, ``A survey of monte carlo tree search methods,'' emph{IEEE Transactions on Computational Intelligence and AI in games}, vol.~4, no.~1, pp. 1--43, 2012.
+28. R.~Vieira, L.~Chaimowicz, and A.~R. Tavares, ``Reinforcement learning in collectible card games: Preliminary results on legends of code and magic,'' in emph{Proceedings of the 18th Brazilian Symposium on Computer Games and Digital Entertainment, SBGames}, 2019, pp. 611--614.
+29. D.~Fudenberg and D.~Levine, ``Learning in games,'' emph{European economic review}, vol.~42, no. 3-5, pp. 631--639, 1998.
+30. D.~S. Leslie and E.~J. Collins, ``Generalised weakened fictitious play,'' *Games and Economic Behavior*, vol.~56, no.~2, pp. 285--298, 2006.
+31. J.~Heinrich and D.~Silver, ``Deep reinforcement learning from self-play in imperfect-information games,'' *arXiv preprint arXiv:1603.01121*, 2016.
+32. L.~Espeholt, H.~Soyer, R.~Munos, K.~Simonyan, V.~Mnih, T.~Ward, Y.~Doron, V.~Firoiu, T.~Harley, I.~Dunning *et~al.*, ``Impala: Scalable distributed deep-rl with importance weighted actor-learner architectures,'' in *International conference on machine learning*.hskip 1em plus 0.5em minus 0.4emrelax PMLR, 2018, pp. 1407--1416.
+33. P.~Sun, J.~Xiong, L.~Han, X.~Sun, S.~Li, J.~Xu, M.~Fang, and Z.~Zhang, ``Tleague: A framework for competitive self-play based distributed multi-agent reinforcement learning,'' *arXiv preprint arXiv:2011.12895*, 2020.
+34. J.~Schulman, F.~Wolski, P.~Dhariwal, A.~Radford, and O.~Klimov, ``Proximal policy optimization algorithms,'' *arXiv preprint arXiv:1707.06347*, 2017.
